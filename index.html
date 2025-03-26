@@ -30,21 +30,23 @@
 
               <p>I am grateful for my undergraduate experience learning from WHUT and my 4 years growing on project competition abilities mentored by Prof. <a href="http://cst.whut.edu.cn/xygk/szdw/201505/t20150527_876916.shtml">Xing Liu</a> and research experiences mentored by Prof. <a href="http://cst.whut.edu.cn/xygk/szdw/201809/t20180911_876961.shtml">Anna Zhu</a>.</p> 
               
-              <p>I am now applying for 2026 fall PhD. And my CV can be downloaded from <a href="data/cv/cv-en-ano.pdf">here</a> and <a href="data/cv/cv-zh_cn-ano.pdf">here(中文)</a></p>
+              <p><span style ="color:#d01717">I am now applying for 2026 fall PhD.</span> And my CV can be downloaded from <a href="data/cv/cv-en-ano.pdf">here</a> and <a href="data/cv/cv-zh_cn-ano.pdf">here(中文)</a>. Please connect me if you are interested in me.</p>
+              <!-- <hr> -->
+              <p style="text-align:center;margin-top:2em"><a href="#Educational" target="_self">Educational</a>&emsp;&emsp;<a href="#papers" target="_self">Papers</a>&emsp;&emsp;<a href="#Project" target="_self">Projects</a>&emsp;&emsp;<a href="#teaching" target="_self">Teaching</a>&emsp;&emsp;<a href="#outreach_service" target="_self">Outreach & Service</a>&emsp;&emsp;<a href="#honors" target="_self">Selected Honors</a>&emsp;&emsp;<a href="#Miscellaneous" target="_self">Miscellaneous</a></p>
 
               <p style="text-align:center;margin-bottom:0em;margin-top:1  em">
                 <a href="https://github.com/Zander-J">Github</a> &nbsp/&nbsp
                 <a href="mailto:ftjizihan@mail.scut.edu.cn">Email</a>
               </p>
             </td>
-  
+            
             <td style="padding-top:2%;padding-left:3%;width:15%;max-width:30%">
               <img style="width:85%;max-width:85%;border-radius:10%" alt="profile photo" src="data/scut.jpg" class="hoverZoomLink">
               <img style="width:85%;max-width:85%;border-radius:10%" alt="profile photo" src="data/whut.png" class="hoverZoomLink">
             </td>
           </tr>
         </tbody></table>
-
+        <hr style="margin-top: 2%;">
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:10px 0px 0px 10px;width:100%;vertical-align:middle">
@@ -67,18 +69,19 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px 0px 0px 10px;width:100%;vertical-align:middle">
-              <heading><h4 id="Educational"></h4><b>Educational Experiences</b></heading>
+              <heading><h4 id="Educational"></h4><b>Educational</b></heading>
             </td>
           </tr>
         </tbody></table>
           <p style="padding-left:10px;padding-right:20px"> 
             <ul>
-              <li>2023.09 - 2026.06: South China University of Technology (华南理工大学, SCUT), Guangzhou</li>
-              <li>2019.09 - 2023.06: Wuhan University of Technology (武汉理工大学, WHUT), Wuhan</li>
+              <li style="margin-top: 1%;">2023.09 - 2026.06: South China University of Technology (华南理工大学, SCUT), Guangzhou, Master</li>
+              <li style="margin-top: 1%;">2019.09 - 2023.06: Wuhan University of Technology (武汉理工大学, WHUT), Wuhan, Bachelor</li>
             </ul>
           </p>
+        <hr style="margin-top: 5%;">
 
-
+        <!-- ################## Papers ################## -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:10px 0px 10px 10px;width:100%;vertical-align:middle">
@@ -98,7 +101,7 @@
               <br>
               Ye Liu*, <b>Zihan Ji</b>*, Xuetao Tian<div style="display: inline-block; position: relative; padding-right: 40px;"><img src="data/env.svg" style="position: absolute; bottom: 3pt; left: 0; width: 10px; height: 10px;"></div>
               <br>
-              <em>ICCV 2025 Submission (Under Review)</em>
+              <em><b>ICCV 2025 Submission (Under Review)</b></em>
               <br>
             </div>
             </td>
@@ -112,9 +115,14 @@
               <br>
               <b>Zihan Ji</b>, Xuetao Tian, Ye Liu<div style="display: inline-block; position: relative; padding-right: 40px;"><img src="data/env.svg" style="position: absolute; bottom: 3pt; left: 0; width: 10px; height: 10px;"></div>
               <br>
-              <em>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2025) <span style ="color:#8a22cf">[Oral]</span></em>
-              <br>
-              [<a href = "https://arxiv.org/abs/2412.08965">Paper</a>]&emsp;[<a href = "https://github.com/Zander-J/AFFAKT">Code</a>]
+              <em><b>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2025) <span style ="color:#8a22cf">[Oral]</span></b></em>
+              <br>              
+              <details open>
+                <summary><i>Abstract</i></summary>
+                <i>Abstract: The scarcity of high-quality large-scale labeled datasets poses a huge challenge for employing deep learning models in video deception detection. To address this issue, inspired by the psychological theory on the relation between deception and expressions, we propose a novel method called AFFAKT in this paper, which enhances the classification performance by transferring useful and correlated knowledge from a large facial expression dataset. Two key challenges in knowledge transfer arise: 1) how much knowledge of facial expression data should be transferred and 2) how to effectively leverage transferred knowledge for the deception classification model during inference. Specifically, the optimal relation mapping between facial expression classes and deception samples is firstly quantified using proposed H-OTKT module and then transfers knowledge from the facial expression dataset to deception samples. Moreover, a correlation prototype within another proposed module SRKB is well designed to retain the invariant correlations between facial expression classes and deception classes through momentum updating. During inference, the transferred knowledge is fine-tuned with the correlation prototype using a sample-specific re-weighting strategy. Experimental results on two deception detection datasets demonstrate the superior performance of our proposed method. The interpretability study reveals high associations between deception and negative affections, which coincides with the theory in psychology.</i>
+                <img style="width:90%;max-width:90%;display: block;margin: auto;" src="data/project-assets/affakt.png">
+              </details>
+              <b>Attachments:</b>&emsp;[<a href = "https://arxiv.org/abs/2412.08965">Paper</a>]&emsp;[<a href = "https://github.com/Zander-J/AFFAKT">Code</a>]
               <br>
             </div>
             </td>
@@ -128,16 +136,74 @@
               <br>
               Xinyu Zhou*, <b>Zihan Ji</b>*, Anna Zhu<div style="display: inline-block; position: relative; padding-right: 40px;"><img src="data/env.svg" style="position: absolute; bottom: 3pt; left: 0; width: 10px; height: 10px;"></div>
               <br>
-              <em>Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2024)</em>
+              <em><b>Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2024)</b></em>
               <br>
-              [<a href = "https://link.springer.com/chapter/10.1007/978-981-97-8511-7_15">Paper</a>]
+              <details open>
+                <summary><i>Abstract</i></summary>
+                <i>Abstract: Scene Graph Generation (SGG) is the task of mapping an image or a video into a semantic structural scene graph automatically for better scene understanding. It requires detecting objects and building their relations. Current SGG methods ignore an essential element of the scene images, i.e., scene text. To better utilize this information for more comprehensive image understanding, we introduce it into the SGG task and propose an OCR-aware Scene Graph Generation (OSGG) baseline approach. To solve the training bias in both SGG and OSGG tasks, we present a novel learning strategy based on causal inference to remove the bad bias and make the prediction process more rational. The feature representations of objects are one of the keys to these tasks but generally extracted from bounding boxes, which are coarse. To obtain more fine-grained object features, we propose a visual feature enhancement module that fuses linguistic modality and integrates cross-modal attention. For evaluation, we provide a new OCR-aware dataset, TextCaps-SG, to benchmark the performance. Experimental results on this dataset and the Visual Gnome (VG) dataset demonstrate the effectiveness of each designed module and verify the superiority of our proposed method over other state-of-the-art methods. Moreover, we apply our generated OSG to cross-modal retrieval tasks. Experiments conducted on COCO TextCaps (CTC) and TextCaps-SG further illustrate that our method significantly outperforms the previous SG-based retrieval methods and could achieve competitive or better results than some large-scale models.</i>
+                <img style="width:90%;max-width:90%;display: block;margin: auto;" src="data/project-assets/osgg.png">
+              </details>
+              <b>Attachments:</b>&emsp;[<a href = "https://link.springer.com/chapter/10.1007/978-981-97-8511-7_15">Paper</a>]
               <br>
             </div>
             </td>
           </tr>
 
         </tbody></table>
+        <hr style="margin-top: 5%;">
 
+        <!-- ################## Project Experiences ################## -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:20px 0px 0px 10px;width:100%;vertical-align:middle">
+              <heading><h4 id="Project"></h4><b>Projects</b></heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <p style="padding-left:10px;padding-right:20px">
+          <p style="padding-left:12px;padding-right:20px;margin-top: 5%;font-size: 13pt;"><b>Airport Intelligent Runway Monitoring System</b> (2021.12 - 2022.04, Mentor: Prof. Xing Liu)</p>
+          <p style="padding-left:20px;padding-right:20px">This project develops an intelligent airport runway management system. It replaces traditional sensors with fiber-optic sensors to enhance anti-interference capabilities and reduce data loss. The system employs CNN for real-time aircraft/vehicle trajectory tracking and FFT algorithms for runway deformation detection. FPGA-based accelerators optimize algorithm efficiency, while the KubeEdge framework enables edge computing to process data locally, minimizing cloud transmission delays. The solution addresses limitations of traditional sensors, low detection accuracy, and real-time big data challenges, achieving faster data processing than generation speeds. It ensures safe runway operations through cloud-edge collaboration and integrated monitoring, effectively resolving risks like surface irregularities and unauthorized intrusions.</p>
+          <img style="width:50%;max-width:85%;display: block; margin: 0 auto;" alt="profile photo" src="data/project-assets/airport.svg" class="hoverZoomLink">
+          <p style="padding-left:20px;padding-right:20px;"><b><i>Project Contents </i></b></p>
+          <ul style="padding-left:50px;padding-right:20px">
+            <li><b>(My part)</b> Implementation of an Airport Vehicle Trajectory Tracking Algorithm: Utilizing CNN to monitor airport runways in real-time and track the trajectories of aircraft and tow vehicles on the runway.</li>
+            <li><b>(My part)</b> Implementation of an Airport Runway Surface Step Detection Algorithm: Utilizing FFT to monitor runway surface conditions in real-time and detect surface steps.</li>
+            <li>Development of an Edge-Side FPGA Accelerator for Algorithm Optimization: Utilizing FPGA hardware acceleration to enhance the execution efficiency of the FFT algorithm and reduce its processing time.</li>
+            <li>Edge-Cloud Data Fusion Based on KubeEdge: Deploying a containerized scheduling platform using KubeEdge to enable real-time transmission of airport runway detection data from edge nodes to the cloud. The cloud then integrates detection results from multiple fiber-optic regions to achieve real-time global monitoring of the airport.</li>
+          </ul>
+          <p style="padding-left:20px;padding-right:20px;"><b><i>Reward:</i></b> Provincial First Prize of 中国大学生计算机设计大赛 (2022)</p>
+          
+
+          <p style="padding-left:12px;padding-right:20px;font-size: 13pt;"><b>Flexible Job Shop Scheduling Based on Edge Computing and Reinforcement Learning</b> (2022.01 - 2022.04, Mentor: Prof. Xing Liu)</p>
+          <p style="padding-left:20px;padding-right:20px">In response to the shortcomings of algorithm, data fusion, and privacy protection in cloud edge collaborative workshop scheduling, the project constructs an intelligent collaborative computing system: a GPU accelerated genetic algorithm integrated with BP neural network is designed in the cloud to achieve efficient cloud edge task decoupling and splitting; The edge adopts GNN-Reinforcement Learning fused model to enhance the dynamic adaptability of tasks. Implement data privacy protection and cross domain integration through a federated learning framework, and build a complete cloud edge intelligent collaborative scheduling solution.</p>
+          <img style="width:50%;max-width:85%;display: block; margin: 0 auto;" alt="profile photo" src="data/project-assets/fjsp.png" class="hoverZoomLink">
+          <p style="padding-left:20px;padding-right:20px;"><b><i>Project Contents </i></b></p>
+          <ul style="padding-left:50px;padding-right:20px">
+            <li>Study the improvement of genetic algorithm and decoupling the scheduling process of cloud edge tasks to enhance the scheduling efficiency of the algorithm.</li>
+            <li>Research and design a hardware accelerator specifically designed for GPUs, which integrates software and hardware to improve the computational speed and accuracy of algorithms.</li>              
+            <li><b>(My part)</b> Research deep learning, reinforcement learning and other algorithms, and integrate them into workshop scheduling algorithms to improve the adaptive ability of scheduling systems to different application scenarios.</li>
+            <li>Research on cloud edge collaborative federated learning to protect edge data privacy and enhance edge data fusion.</li>
+          </ul>
+          <p style="padding-left:20px;padding-right:20px;"><b><i>Reward:</i></b> National Third Prize of 中国大学生服务外包创新创业大赛 (2022)</p>
+          
+          <p style="padding-left:12px;padding-right:20px;font-size: 13pt;"><b>Contest: Automatic station real-time joint prediction based on meteorological big data</b> (2024.06 - 2024.08, Mentor: Prof. Ye Liu)</p>
+          <p style="padding-left:20px;padding-right:20px">The official contest page can be found <a href="https://www.heywhale.com/home/competition/6662bf9a8d6c97c5d0c6bb10">here</a> and the detailed question description can be found <a href="https://www.heywhale.com/home/competition/6662bf9a8d6c97c5d0c6bb10">here</a>.</p>
+          <img style="width:70%;max-width:85%;display: block; margin: 0 auto;" alt="profile photo" src="data/project-assets/bdc.svg" class="hoverZoomLink">
+          <p style="padding-left:20px;padding-right:20px;"><b><i>Key Points </i></b></p>
+          <ul style="padding-left:50px;padding-right:20px">
+            <li>The MMoE framework improves the diversity of model learning sequence knowledge.</li>
+            <li>The "Invert" idea has high effectiveness for this dataset. (<a href="https://openreview.net/forum?id=JePfAI8fah">THUML, iTransformer</a>)</li>              
+            <li>Integrating a large number of models to improve algorithm robustness.</li>
+            <li>Details of this contest project can be found <a href="https://github.com/Zander-J/BDC2024">here</a>.</li>
+          </ul>
+          <p style="padding-left:20px;padding-right:20px;"><b><i>Reward:</i></b> National Third Prize of 中国高校计算机大赛——大数据挑战赛 (2024)</p>
+          
+          
+        </p>
+        <hr style="margin-top: 5%;">
+
+
+        <!-- ################## Teaching ################## -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px 0px 0px 10px;width:100%;vertical-align:middle">
@@ -148,10 +214,13 @@
 
         <p style="padding-left:10px;padding-right:20px"> 
             <ul>
-              <li>Undergraduate Course TA: Introduction to Engineering Practice (2023 Fall)</li>
+              <li style="margin-top: 1%;">Undergraduate Course TA: Introduction to Engineering Practice (2023 Fall)</li>
             </ul>
         </p>
+        <hr style="margin-top: 5%;">
+        
 
+        <!-- ################## Outreach & Professional Service ################## -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px 0px 0px 10px;width:100%;vertical-align:middle">
@@ -163,10 +232,12 @@
         <p style="padding-left:10px;padding-right:20px"> 
           <b>Reviewing</b>
           <ul>
-            <li><b>ICME</b>  2024, 2025.</li>
+            <li style="margin-top: 1%;"><b>ICME</b>  2024, 2025.</li>
           </ul>
       </p>
+      <hr style="margin-top: 5%;">
 
+      <!-- ################## Selected Honors ################## -->
        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px 0px 0px 10px;width:100%;vertical-align:middle">
@@ -174,30 +245,49 @@
             </td>
           </tr>
         </tbody></table>
-
         <p style="padding-left:10px;padding-right:20px"> 
             <ul>
-              <li>Outstanding Graduates (2023)</li>
-              <li>Excellent Student Cadre (2023)</li>
-              <li>Merit Student (2020, 2021, 2022)</li>
-              <li>The Second Prize Scholarship from School (2020, 2021, 2022)</li>
-              <li>National Third Prize of 中国大学生服务外包创新创业大赛 (2022)</li>
-              <li>Provincial First Prize of 中国大学生计算机设计大赛 (2022)</li>              
-              <li>National Third Prize of 中国高校计算机大赛—大数据挑战赛 (2024)</li>
+              <li style="margin-top: 1%;">Outstanding Graduates (2023)</li>
+              <li style="margin-top: 1%;">Excellent Student Cadre (2023)</li>
+              <li style="margin-top: 1%;">Merit Student (2020, 2021, 2022)</li>
+              <li style="margin-top: 1%;">The Second Prize Scholarship from School (2020, 2021, 2022)</li>
             </ul>
         </p>
+        <hr style="margin-top: 5%;">
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <!-- ################## Miscellaneous ################## -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <td style="padding-right:30px">
-              <br>
-              <p style="text-align:right;font-size:x-small;">
-               <b>Last updated on March 25, 2025</b><br>
-               Created by modifying this wonderful <a style="font-size:x-small;" href="https://github.com/jonbarron/website"> template</a> from <a style="font-size:x-small;" href="https://jonbarron.info"> Jon Barron</a>.
-              </p>
+            <td style="padding:20px 0px 0px 10px;width:100%;vertical-align:middle">
+              <heading><h4 id="Miscellaneous"></h4><b>Miscellaneous</b></heading>
             </td>
           </tr>
         </tbody></table>
+        <p style="padding-left:10px;padding-right:20px"> 
+          <ul>
+            <li style="margin-top: 1%;">Thanks to the trust of my mentor, I am currently managing and maintaining the servers of our research group.</li>
+            <li style="margin-top: 1%;">I often play badminton when my research tasks are not too demanding.</li>
+            <li style="margin-top: 1%;">I really enjoy music, especially classical music. Since starting university, I have been teaching myself the piano.</li>
+          </ul>
+      </p>
+      <hr style="margin-top: 5%;">
+
+
+
+
+      <!-- ################## tail ################## -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding-right:30px">
+            <br>
+            <p style="text-align:right;font-size:x-small;">
+              <b>Last updated on March 26, 2025</b><br>
+              Created by modifying this wonderful <a style="font-size:x-small;" href="https://github.com/jonbarron/website"> template</a> from <a style="font-size:x-small;" href="https://jonbarron.info"> Jon Barron</a>.
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
       </td>
     </tr>
   </table>
