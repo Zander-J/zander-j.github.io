@@ -134,3 +134,44 @@ span.highlight {
 li {
     margin-bottom: 5px;
 }
+.education-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.education-table__table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.education-table__header {
+  background-color: #007acc;
+  color: #ffffff;
+}
+
+.education-table__cell {
+  padding: 12px 16px;
+  border: 1px solid #dddddd;
+  text-align: center;       /* 水平居中 */
+  vertical-align: middle;   /* 垂直居中 */
+}
+
+.education-table__body tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.education-table__body tr:hover {
+  background-color: #e6f7ff;
+}
+.education-table__period {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
