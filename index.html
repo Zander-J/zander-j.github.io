@@ -400,17 +400,60 @@
       </ul>
     </div>
 
-    <div class="visitor-card">
-      <h3>🌐 Visitor Stats</h3>
-      <p>Total Visits:</p>
-      <a href="https://www.hitwebcounter.com/" target="_blank">
-        <img
-          src="https://hitwebcounter.com/counter/counter.php?page=21473151&style=0024&nbdigits=6&type=page&initCount=0"
-          title="Free Tools" Alt="Free Tools" border="0" /></a>
+    <!-- Visitor Counter -->
+    <div id="httpszander-jgithubio-container" style="
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #87b9c8;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: fit-content;">
+
+      <span class="counter-label" style="
+    margin-right: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #581919">
+        Number of Visitors:
+      </span>
+
+      <span id="httpszander-jgithubio-counter" style="
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #581919">
+        00000
+      </span>
     </div>
 
+    <script>
+      (function () {
+        // Initialize counter
+        let httpszander_jgithubioCount = localStorage.getItem('httpszander_jgithubioCount') || 0;
+
+        // Update counter display
+        function updateCounter() {
+          const counter = document.getElementById('httpszander-jgithubio-counter');
+          const digits = 5;
+          counter.textContent = String(httpszander - jgithubioCount).padStart(digits, '0');
+        }
+
+        // Increment counter
+        function incrementCounter() {
+          httpszander - jgithubioCount++;
+          localStorage.setItem('httpszander_jgithubioCount', httpszander - jgithubioCount);
+          updateCounter();
+        }
+
+        // Initial update
+        updateCounter();
+      })();
+    </script>
+
     <footer>
-      Last updated on April 17, 2025 | Created by modifying template from Jon Barron & Leena Mathur
+      Last updated on Jan. 1, 2026 | Created by modifying template from Jon Barron & Leena Mathur.
     </footer>
 
   </div>

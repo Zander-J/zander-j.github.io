@@ -149,33 +149,6 @@ nav a {
   font-weight: bold;
 }
 
-.visitor-card {
-  max-width: 250px;
-  padding: 15px 20px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
-  color: #fff;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-  margin: 20px auto;
-}
-
-.visitor-card h3 {
-  margin-bottom: 10px;
-  font-size: 1.3rem;
-}
-
-.visitor-card p {
-  margin: 8px 0;
-  font-size: 1rem;
-}
-
-.visitor-card img {
-  margin-top: 8px;
-  border-radius: 5px;
-}
-
 .ai-superpower-container {
   text-align: center;
   margin: 50px auto;
