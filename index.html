@@ -428,30 +428,6 @@
       </span>
     </div>
 
-    <script>
-      (function () {
-        // Initialize counter
-        let httpszander_jgithubioCount = localStorage.getItem('httpszander_jgithubioCount') || 0;
-
-        // Update counter display
-        function updateCounter() {
-          const counter = document.getElementById('httpszander-jgithubio-counter');
-          const digits = 5;
-          counter.textContent = String(httpszander - jgithubioCount).padStart(digits, '0');
-        }
-
-        // Increment counter
-        function incrementCounter() {
-          httpszander - jgithubioCount++;
-          localStorage.setItem('httpszander_jgithubioCount', httpszander - jgithubioCount);
-          updateCounter();
-        }
-
-        // Initial update
-        updateCounter();
-      })();
-    </script>
-
     <footer>
       Last updated on Jan. 1, 2026 | Created by modifying template from Jon Barron & Leena Mathur.
     </footer>
