@@ -304,6 +304,14 @@ details summary {
   vertical-align: bottom;
 }
 
+.paper-year {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+
 #papers::after {
   content: "";
   display: block;
